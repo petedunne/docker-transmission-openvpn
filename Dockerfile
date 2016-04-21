@@ -3,7 +3,7 @@
 # Version 1.8
 
 FROM ubuntu:14.04
-MAINTAINER Kristian Haugene
+MAINTAINER Kristian Haugene / Pete Dunne
 
 VOLUME /data
 VOLUME /config
@@ -34,7 +34,7 @@ ENV OPENVPN_USERNAME=**None** \
     "TRANSMISSION_BIND_ADDRESS_IPV4=0.0.0.0" \
     "TRANSMISSION_BIND_ADDRESS_IPV6=::" \
     "TRANSMISSION_BLOCKLIST_ENABLED=false" \
-    "TRANSMISSION_BLOCKLIST_URL=http://www.example.com/blocklist" \
+    "TRANSMISSION_BLOCKLIST_URL=http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=p2p&archiveformat=gz" \
     "TRANSMISSION_CACHE_SIZE_MB=4" \
     "TRANSMISSION_DHT_ENABLED=true" \
     "TRANSMISSION_DOWNLOAD_DIR=/data/completed" \
